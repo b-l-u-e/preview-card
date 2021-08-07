@@ -36,8 +36,8 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [preview-card](https://github.com/b-l-u-e/preview-card)
 
 ## my-process
 
