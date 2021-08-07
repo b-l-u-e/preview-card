@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Lexend:wght@100;300&display=swap");
+/* :root {
+  font-size: 93.75%;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, "Lexend Deca", Lexend, Arial, Helvetica, sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 93.75%;
+  color: #efefef;
+  letter-spacing: 0.08rem;
+}
+
+body {
+  background-color: #0a0c1b;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.content {
+  background-color: #1c1938;
+  max-width: 40rem;
+  height: 30rem;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.image-section {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 40rem;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: hsl(277, 64%, 61%);
+  background-blend-mode: multiply;
+  background-image: url("./images/image-header-desktop.jpg");
+  /* background-size: 40rem 30rem; */
+}
+
+.content h1 {
+  padding: 2.5rem 2rem 1.5rem 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.3rem;
+  max-width: 100%;
+}
+
+.content h1 span {
+  color: #935bbb;
+}
+
+.content p {
+  padding: 1rem 2.5rem 1.5rem 2rem;
+  font-size: 1.17rem;
+  font-family: Lexend;
+  font-weight: 100;
+  max-width: 100%;
+}
+
+.content ul {
+  max-width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.content ul li {
+  flex-grow: 1;
+  flex-basis: auto;
+  font-family: Lexend;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 1079px) {
+  .content h1 {
+    font-size: 2.2rem;
+    padding-left: 2.5rem;
+  }
+
+  .content p {
+    padding-left: 2.5rem;
+    font-size: 1rem;
+  }
+  .content ul {
+    padding-left: 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 873px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .content,
+  .image-section {
+    border-radius: 0;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content ul {
+    padding-right: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content h1 {
+    padding-bottom: 0.2rem;
+  }
+  .content p {
+    padding-bottom: 0.2rem;
+  }
+  .content ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content ul li {
+    padding-bottom: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 40rem;
+  }
+
+  .content {
+    max-width: 20rem;
+    align-items: center;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+  }
+
+  .content ul {
+    font-size: 0.7rem;
+  }
+
+  .image-section {
+    max-width: 20rem;
+  }
+}
