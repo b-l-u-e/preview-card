@@ -37,7 +37,7 @@ Users will be able to:
 ### Links
 
 
-- Live Site URL: [preview-card](https://github.com/b-l-u-e/preview-card)
+- Live Site URL: [preview-card](https://adoring-goldwasser-1d1ceb.netlify.app)
 
 ## my-process
 
