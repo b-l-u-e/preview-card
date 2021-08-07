@@ -28,10 +28,10 @@ Users will be able to:
 
 ### Screenshot
 
-Desktop view screenshot:
+- Desktop view screenshot:
 ![](./desktop-view-solution.png)
 
-Mobile view screenshot:
+- Mobile view screenshot:
 ![](./mobile-view-solution.png)
 
 ### Links
